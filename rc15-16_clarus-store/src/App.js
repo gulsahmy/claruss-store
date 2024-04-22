@@ -12,9 +12,8 @@ function App() {
   return (
     <div>
       <AuthProvider>
-            <AppRouter />
+        <AppRouter />
       </AuthProvider>
-  
       {/*//* route yapısını router dosyasına taşıdık */}
       {/* <BrowserRouter>
         <Routes>
